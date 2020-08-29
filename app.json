@@ -1,14 +1,18 @@
 {
   "expo": {
-    "name": "appimc",
-    "slug": "appimc",
+    "name": "AppIMC",
+    "slug": "AppIMC",
+    "platforms": [
+      "android",
+      "ios"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#4ba28c"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -21,6 +25,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "android": {
+      "package": "com.jv.appimc",
+      "versionCode": 1
+    },
+    "ios": {
+      "bundleIdentifier": "com.jv.appimc",
+      "buildNumber": "1.0.0"
   }
+  
+}
 }
